@@ -4,6 +4,11 @@ body {
 }
 h1 { 
 text-align: center;
+border-bottom: 4px solid saddlebrown;
+max-width: 400px;
+min-width: 200px;
+margin-left: auto;
+margin-right: auto;
 }
 img { 
     max-width: 300px;
@@ -24,4 +29,15 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 text-align: center;
+}
+.spacer{ 
+    border: 6px solid saddlebrown;
+   /*  border-top: 6px solid saddlebrown; */
+   border-radius: 12%;
+    width: auto;
+    max-width: 400px;
+    min-width: 200ox; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
