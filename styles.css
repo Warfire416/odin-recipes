@@ -5,7 +5,7 @@ body {
 h1 { 
 text-align: center;
 border-bottom: 4px solid saddlebrown;
-max-width: 400px;
+max-width: 240px;
 min-width: 200px;
 margin-left: auto;
 margin-right: auto;
@@ -20,15 +20,19 @@ img {
     border: solid 3px saddlebrown; 
     display: block;
 }
-.back-button { 
-border: black 2px solid; 
-background-color: yellow;
-}
+
 h2, h3 { 
 display: block;
 margin-left: auto;
 margin-right: auto;
 text-align: center;
+text-align: center;
+    border-bottom: 4px solid saddlebrown;
+    max-width: 150px;
+    min-width: 130px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 .spacer{ 
     border: 6px solid saddlebrown;
@@ -41,3 +45,12 @@ text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
+a:link, a:visited{
+    color: burlywood;
+    background-color: saddlebrown;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding:5px 5px ;
+}
+
